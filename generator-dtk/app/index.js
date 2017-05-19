@@ -12,8 +12,8 @@ module.exports = class extends Generator {
   method1() {
     this.log('method 1 just ran');
   }
-
-  method2() {
+// _ will make method2 private and will not be called when yo dtk run
+  _method2() {
     this.log('method 2 just ran');
   }
 };
